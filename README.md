@@ -1,4 +1,4 @@
-# 🩸 Analisis Deret Waktu (Time Series) Jumlah Pendonor Darah Gagal Skrining Hemoglobin (Tolak HB) di UDD PMI Kota Surabaya
+# Analisis dan Perbandingan Kinerja Metode SARIMA dan Exponential Smoothing (ETS) dalam Peramalan Jumlah Pendonor Darah Harian
 
 Repositori ini merupakan dokumentasi proyek analisis data untuk pemenuhan tugas mata kuliah **Analisis Deret Waktu (Kelas A)** pada Program Studi Sains Data, Fakultas Ilmu Komputer, UPN "Veteran" Jawa Timur. Penelitian ini mengkaji dinamika fluktuasi harian calon pendonor darah yang mengalami penolakan pada tahap skrining kesehatan akibat ketidaksesuaian kadar hemoglobin (Tolak HB) di Unit Donor Darah (UDD) Palang Merah Indonesia (PMI) Kota Surabaya.
 
@@ -59,7 +59,7 @@ Proyek ini dikerjakan secara bertahap mengikuti metodologi standar analisis dere
 
 ---
 
-## 🔮 Rencana Pemodelan Selanjutnya
+## Rencana Pemodelan Selanjutnya
 
 Berdasarkan eksplorasi visual dari *Rolling Mean* dan *Rolling Standard Deviation* yang menunjukkan adanya fluktuasi dinamis dari minggu ke minggu, tahapan pemodelan statistik yang direncanakan meliputi:
 1. **Pengujian Stasioneritas Formal**: Membuktikan secara statistik apakah deret waktu bersifat non-stasioner menggunakan uji akar unit (*Unit Root Test* / ADF) serta melihat pola penurunan *lag* pada grafik *Autocorrelation Function* (ACF).
